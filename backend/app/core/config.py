@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     app_env: str = "development"
     secret_key: str = "unsafe-development-secret-change-me"
-    database_url: str = "sqlite:///./languagehub.db"
+    database_url: str = "sqlite:////tmp/languagehub.db"
     cors_origins: str = "http://localhost:3000,http://localhost:8081"
     access_token_minutes: int = 60
     gemini_api_key: str = ""

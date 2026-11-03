@@ -1,16 +1,14 @@
 .env
 .env.*
 !.env.example
-
 __pycache__/
-*.py[cod]
+*.pyc
 .pytest_cache/
 .venv/
 venv/
 *.db
 *.sqlite
 *.sqlite3
-
 node_modules/
 .next/
 .expo/

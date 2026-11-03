@@ -1,0 +1,18 @@
+{
+  "modules": [
+    {"id":"vocabulary","title":"Vocabulary Studio","description":"Build and review a personal word bank with translations, examples and mastery tracking.","route":"/vocabulary","capabilities":["save words","translations","definitions","examples","review schedule"]},
+    {"id":"grammar","title":"Grammar Academy","description":"Study practical grammar patterns and check your understanding with short exercises.","route":"/grammar","capabilities":["guided explanations","worked examples","answer checking"]},
+    {"id":"reading","title":"Reading Studio","description":"Read a level-tagged passage and answer comprehension questions.","route":"/reading","capabilities":["graded passages","comprehension practice"]},
+    {"id":"writing","title":"Writing Studio","description":"Submit short writing and receive AI feedback when Gemini is configured.","route":"/writing","capabilities":["writing submissions","AI feedback when configured"]},
+    {"id":"conversation","title":"Conversation Practice","description":"Practice everyday roleplays with the AI tutor when Gemini is configured.","route":"/conversation","capabilities":["roleplay prompts","AI conversation when configured"]},
+    {"id":"listening","title":"Listening Studio","description":"Listening activities are prepared in the curriculum; audio playback requires licensed or supplied audio assets.","route":"/listening","capabilities":["activity structure","audio assets required"]},
+    {"id":"speaking","title":"Speaking Studio","description":"Speaking workflows require device microphone permissions and a supported speech-to-text provider.","route":"/speaking","capabilities":["recording workflow planned","speech provider required"]}
+  ],
+  "grammar_lessons": [
+    {"id":"en-present-simple","language_code":"en","level":"A1","title":"Present simple: daily routines","explanation":"Use the present simple for habits, routines and facts. With he, she or it, add -s or -es to most verbs.","examples":[{"target":"I study every day.","translation":"Main roz parhta/parhti hoon."},{"target":"She studies every day.","translation":"Woh roz parhti hai."}],"question":{"prompt":"Choose the correct sentence.","options":["He work every day.","He works every day.","He working every day."],"answer_index":1,"explanation":"Use works with he, she and it in the present simple."}},
+    {"id":"ur-greetings","language_code":"ur","level":"A1","title":"Urdu greetings","explanation":"Urdu greetings change with context and formality. السلام علیکم is a widely used respectful greeting.","examples":[{"target":"السلام علیکم","translation":"Peace be upon you."},{"target":"آپ کیسے ہیں؟","translation":"How are you? (respectful)"}],"question":{"prompt":"Which phrase means 'How are you?' (respectful)","options":["شکریہ","آپ کیسے ہیں؟","خدا حافظ"],"answer_index":1,"explanation":"آپ کیسے ہیں؟ is a respectful way to ask how someone is."}}
+  ],
+  "reading_passages": [
+    {"id":"en-a1-market","language_code":"en","level":"A1","title":"A morning at the market","text":"Sara goes to the market on Saturday. She buys apples, bread and milk. The market is busy, but the shopkeeper is friendly.","questions":[{"prompt":"When does Sara go to the market?","options":["Monday","Saturday","Friday"],"answer_index":1},{"prompt":"What does she buy?","options":["Rice and tea","Apples, bread and milk","Books"],"answer_index":1}]}
+  ]
+}

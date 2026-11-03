@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: languagehub
+      POSTGRES_USER: languagehub
+      POSTGRES_PASSWORD: change-me-local-only
+    ports: ["5432:5432"]
+    volumes: ["languagehub_pg:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U languagehub -d languagehub"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+volumes:
+  languagehub_pg:

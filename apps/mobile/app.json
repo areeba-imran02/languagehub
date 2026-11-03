@@ -1,0 +1,1 @@
+{"expo":{"name":"LanguageHub","slug":"languagehub","scheme":"languagehub","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"automatic","newArchEnabled":true,"ios":{"supportsTablet":true,"bundleIdentifier":"com.languagehub.app"},"android":{"package":"com.languagehub.app","permissions":["RECORD_AUDIO"]},"plugins":["expo-router","expo-secure-store"]}}

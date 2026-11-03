@@ -1,0 +1,4 @@
+-- Apply after creating the corresponding public tables in Supabase.
+-- These policies assume users.id maps to auth.uid(); adapt the schema if using integer IDs.
+-- Recommended production approach: UUID primary keys and auth.uid() foreign keys.
+-- Do not enable these example policies on the integer-ID local schema unchanged.
